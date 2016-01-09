@@ -1,0 +1,12 @@
+{
+    "name": "blooejay",
+    "version": "0.1.5",
+    "description": "REST api supporting BlooeJay Gallery",
+    "author": "Marek Pietrzak <marek.pietrzak@actech.pl>",
+    "dependencies": {
+        "mongodb": "~2.0",
+        "restify": "~4.0",
+        "mocha": "2.3.4"
+        },
+    "licence": "GPL 3.0"
+}
