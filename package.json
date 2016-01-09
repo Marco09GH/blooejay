@@ -8,5 +8,9 @@
         "restify": "~4.0",
         "mocha": "2.3.4"
         },
-    "licence": "GPL 3.0"
+    "repository": {
+      "type": "git",
+      "url" : "https://github.com/Marco09GH/blooejay.com"  
+    },    
+    "licence": "GPL-3.0"
 }
