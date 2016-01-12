@@ -1,9 +1,10 @@
 var mongoose = require('mongoose');
 
-var authorSchema = { 
+var authorSchema = new mongoose.Schema({ 
     nick: String,
     realname: String
-};
+});
 
-module.exports = new mongoose.Schema(authorSchema);
-module.exports.authorSchema = authorSchema;
+var Author = mongoose.model('Author', authorSchema);
+
+module.exports = Author; 
