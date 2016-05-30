@@ -12,6 +12,10 @@ mongo.connect('mongodb://localhost:27017/video', function (err, db) {
         });
     });
     
+    server.post('/api/movies', function(req, res, next) {
+        
+    });
+    
     server.listen(3000, function() {
        console.log('%s listening at %s', server.name, server.url); 
     });
